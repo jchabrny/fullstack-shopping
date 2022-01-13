@@ -1,5 +1,3 @@
-com/example/demospringdata/models/Item.class
-com/example/demospringdata/repositories/ItemsRepository.class
-com/example/demospringdata/models/ApplicationConfig.class
 com/example/demospringdata/models/Item$ItemBuilder.class
+com/example/demospringdata/models/Item.class
 com/example/demospringdata/DemoSpringDataApplication.class

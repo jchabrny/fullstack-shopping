@@ -1,4 +1,6 @@
-/Users/jacquelinechabrny/Documents/demo-spring-data/src/main/java/com/example/demospringdata/repositories/ItemsRepository.java
-/Users/jacquelinechabrny/Documents/demo-spring-data/src/main/java/com/example/demospringdata/models/ApplicationConfig.java
-/Users/jacquelinechabrny/Documents/demo-spring-data/src/main/java/com/example/demospringdata/DemoSpringDataApplication.java
-/Users/jacquelinechabrny/Documents/demo-spring-data/src/main/java/com/example/demospringdata/models/Item.java
+/Users/jacquelinechabrny/Documents/fullstack-shopping/demo-spring-data/src/main/java/com/example/demospringdata/controller/ShoppingController.java
+/Users/jacquelinechabrny/Documents/fullstack-shopping/demo-spring-data/src/main/java/com/example/demospringdata/models/Item.java
+/Users/jacquelinechabrny/Documents/fullstack-shopping/demo-spring-data/src/main/java/com/example/demospringdata/config/ApplicationConfig.java
+/Users/jacquelinechabrny/Documents/fullstack-shopping/demo-spring-data/src/main/java/com/example/demospringdata/repositories/ItemRepository.java
+/Users/jacquelinechabrny/Documents/fullstack-shopping/demo-spring-data/src/main/java/com/example/demospringdata/service/ShoppingService.java
+/Users/jacquelinechabrny/Documents/fullstack-shopping/demo-spring-data/src/main/java/com/example/demospringdata/DemoSpringDataApplication.java
