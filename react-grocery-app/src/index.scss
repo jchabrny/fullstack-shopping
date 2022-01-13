@@ -1,0 +1,8 @@
+$mainColor: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+
+body {
+  font-family: arial, sans-serif;
+  background: $mainColor;
+  margin: 60px;
+  padding: 0;
+}

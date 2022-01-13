@@ -1,0 +1,9 @@
+Kundenauftrag: Dropdown-Menü auf MainPage, um verschiedene Rezepte für 5 Tage (Mo-Fr) einzureichen
+Zeitschätzung: 2-3 Stunden
+
+später: 
+Rezeptvorschlag? 
+Foto zum Rezeptvorschlag hochladen? 
+Eingabe von Rezeptzutaten (Emojis??) 
+Hochladen Foto vom Kühlschrankinhalt? 
+Buttons mit Namen der Einkäufer eines Haushalts?

@@ -1,0 +1,18 @@
+$footerColor: white;
+
+.App h1 {
+  color: lightblue;
+  text-align: center;
+}
+
+.App footer {
+  color: $footerColor;
+  text-align: center;
+}
+
+.App .Dalmatian {
+  max-width: 280px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}

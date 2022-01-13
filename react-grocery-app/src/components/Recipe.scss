@@ -1,0 +1,15 @@
+$buttonColor: white;
+$buttonHoverBackgroundColor: #e2e2ea;
+$buttonHoverColor: #0dcaf0;
+$boxShadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+
+.btn {
+  color: $buttonColor;
+  text-transform: uppercase;
+  box-shadow: $boxShadow;
+}
+
+.btn:hover {
+  background-color: $buttonHoverBackgroundColor;
+  color: $buttonHoverColor;
+}
