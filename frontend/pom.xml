@@ -7,8 +7,8 @@
         <artifactId>fullstack-shopping-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>shoppingcart_frontend</artifactId>
-    <name>shoppingcart_frontend</name>
+    <artifactId>frontend</artifactId>
+    <name>frontend</name>
     <description>frontend</description>
     <properties>
         <java.version>17</java.version>

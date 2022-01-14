@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo-spring-data/demo-spring-data.iml" filepath="$PROJECT_DIR$/demo-spring-data/demo-spring-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-spring-data/backend.iml" filepath="$PROJECT_DIR$/demo-spring-data/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frontend/frontend.iml" filepath="$PROJECT_DIR$/frontend/frontend.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fullstack-shopping.iml" filepath="$PROJECT_DIR$/.idea/fullstack-shopping.iml" />
-      <module fileurl="file://$PROJECT_DIR$/frontend/shoppingcart_frontend.iml" filepath="$PROJECT_DIR$/frontend/shoppingcart_frontend.iml" />
     </modules>
   </component>
 </project>
