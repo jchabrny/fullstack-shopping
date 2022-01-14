@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7675654.css",
+    "main.js": "/static/js/main.cda78523.js",
+    "static/media/burger.jpg": "/static/media/burger.59df2e305502e6059ce3.jpg",
+    "static/media/dalmatian.jpg": "/static/media/dalmatian.07371ffe571d2e8f44da.jpg",
+    "static/media/fridge.jpg": "/static/media/fridge.1de733857d40d14f1bf3.jpg",
+    "index.html": "/index.html",
+    "main.d7675654.css.map": "/static/css/main.d7675654.css.map",
+    "main.cda78523.js.map": "/static/js/main.cda78523.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7675654.css",
+    "static/js/main.cda78523.js"
+  ]
+}

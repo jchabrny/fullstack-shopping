@@ -1,3 +1,7 @@
-com/example/demospringdata/models/Item$ItemBuilder.class
+com/example/demospringdata/service/ShoppingService.class
 com/example/demospringdata/models/Item.class
+com/example/demospringdata/repositories/ItemRepository.class
+com/example/demospringdata/models/Item$ItemBuilder.class
+com/example/demospringdata/controller/ShoppingController.class
 com/example/demospringdata/DemoSpringDataApplication.class
+com/example/demospringdata/config/ApplicationConfig.class
