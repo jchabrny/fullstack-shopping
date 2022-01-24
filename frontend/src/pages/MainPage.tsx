@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import Recipe from "../components/Recipe";
 import dalmatian from "../images/dalmatian.jpg";
 import "./MainPage.scss";
+import React, {useContext} from "react";
+import {AuthContext} from "../context/AuthProvider";
 
 type MainPageProps = {
   recipe: string;
@@ -9,11 +11,15 @@ type MainPageProps = {
 };
 
 export default function MainPage(props: MainPageProps) {
+    const {token, jwtDecoded} = useContext(AuthContext)
+
   return (
     <div>
       <header className="App-header">
         <img src={dalmatian} className="Dalmatian img-fluid" alt="dalmatian" />
         <br />
+          <h2>Hallo {jwtDecoded?.sub}</h2>
+          <br />
         <h1>Weekly Grocery List</h1>
         <br />
         <Recipe recipe={props.recipe} setRecipe={props.setRecipe} />
