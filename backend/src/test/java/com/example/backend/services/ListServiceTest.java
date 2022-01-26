@@ -1,20 +1,13 @@
 package com.example.backend.services;
 
-import com.example.backend.models.Item;
-import com.example.backend.repositories.ItemRepository;
-import org.hamcrest.Matchers;
-import org.junit.jupiter.api.Test;
-
-import java.util.Optional;
+import com.example.backend.repositories.ListRepository;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 class ListServiceTest {
-
-    private final ItemRepository itemRepository = mock(ItemRepository.class);
+/*
+    private final ListRepository itemRepository = mock(ListRepository.class);
 
     private final ListService listService = new ListService(itemRepository);
 

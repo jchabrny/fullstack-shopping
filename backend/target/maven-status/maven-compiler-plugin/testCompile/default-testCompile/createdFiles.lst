@@ -1,1 +1,4 @@
-com/example/demospringdata/DemoSpringDataApplicationTests.class
+com/example/backend/BackendApplicationTests.class
+com/example/backend/controllers/UserControllerTest.class
+com/example/backend/services/ListServiceTest.class
+com/example/backend/controllers/ListControllerTest.class

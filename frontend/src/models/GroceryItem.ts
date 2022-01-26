@@ -1,6 +1,6 @@
-export interface IItem {
-  id: string;
+export interface GroceryItem {
   name: string;
+  amount?: number;
+  isDone?: boolean;
 }
 
-export type Items = IItem[];

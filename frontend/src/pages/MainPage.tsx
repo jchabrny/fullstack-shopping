@@ -11,6 +11,7 @@ type MainPageProps = {
 };
 
 export default function MainPage(props: MainPageProps) {
+
     const {token, jwtDecoded} = useContext(AuthContext)
 
   return (

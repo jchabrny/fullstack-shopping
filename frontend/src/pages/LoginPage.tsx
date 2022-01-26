@@ -1,12 +1,12 @@
 import {ChangeEvent, FormEvent, useContext, useState} from "react";
-import axios from "axios";
 import {AuthContext} from "../context/AuthProvider";
 import {useNavigate} from "react-router-dom";
+import {login} from "../services/BackendService";
 
 export default function LoginPage() {
 
-    const [name, setName] = useState<string>()
-    const [password, setPassword] = useState<string>()
+    const [name, setName] = useState<string>("")
+    const [password, setPassword] = useState<string>("")
 
     const navigate = useNavigate()
 
@@ -22,8 +22,7 @@ export default function LoginPage() {
 
     const onSubmit = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault()
-        axios.post('/auth/login', {name, password})
-            .then(response => response.data)
+        login({ username: name, password: password })
             .then((data) => {
                 setJwt(data)
                 navigate('/')

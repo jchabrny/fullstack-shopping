@@ -1,1 +1,4 @@
-/Users/jacquelinechabrny/Documents/fullstack-shopping/backend/src/test/java/com/example/demospringdata/DemoSpringDataApplicationTests.java
+/Users/jacquelinechabrny/Documents/fullstack-shopping/backend/src/test/java/com/example/backend/controllers/ListControllerTest.java
+/Users/jacquelinechabrny/Documents/fullstack-shopping/backend/src/test/java/com/example/backend/services/ListServiceTest.java
+/Users/jacquelinechabrny/Documents/fullstack-shopping/backend/src/test/java/com/example/backend/controllers/UserControllerTest.java
+/Users/jacquelinechabrny/Documents/fullstack-shopping/backend/src/test/java/com/example/backend/BackendApplicationTests.java

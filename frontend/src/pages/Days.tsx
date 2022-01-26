@@ -9,7 +9,7 @@ type DaysProps = {
 export default function Days(props: DaysProps) {
   let params = useParams();
 
-  return (
+    return (
     <div>
       <nav>
         <Link to="/">HOME</Link>

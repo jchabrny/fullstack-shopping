@@ -8,8 +8,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import java.util.List;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -17,7 +15,7 @@ import java.util.List;
 
 public class UserMongo implements UserDetails {
 
-    public static UserMongo newUser(String username, String password, List<GrantedAuthority> authorities) {
+    public static UserMongo newUser(String username, String password, java.util.List<GrantedAuthority> authorities) {
         return UserMongo.builder()
                 .username(username)
                 .password(password)
@@ -32,13 +30,13 @@ public class UserMongo implements UserDetails {
     @Id
     String username;
     String password;
-    List<GrantedAuthority> authorities;
+    java.util.List<GrantedAuthority> authorities;
     boolean enabled;
     boolean accountNonExpired;
     boolean accountNonLocked;
     boolean credentialsNonExpired;
 
-    List<Item> GroceryItems;
+    java.util.List<ShoppingList> GroceryItems;
 }
 
 

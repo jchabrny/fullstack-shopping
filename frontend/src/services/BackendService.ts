@@ -1,25 +1,30 @@
 import axios, {AxiosResponse} from "axios";
-import {getUserData} from "./LoginService";
+import {ShoppingList} from "../models/ShoppingList";
 
-//const axios = require('axios').default;
+export const getAllLists = (token?: string) =>
+    axios.get("/api/list/getAll", token ? {headers: {'Authorization': 'Bearer ' + token}} : {})
+        .then(response => response.data)
 
-const getConfig = () => ({headers: {'Authorization': 'Bearer ' + getUserData().authToken}})
+export const saveNewList = (listName: ShoppingList, token?: string) =>
+    axios.post("/api/list/saveNew", listName, token ? {headers: {'Authorization': 'Bearer ' + token}} : {})
+        .then(response => response.data)
 
-export const getAllLists = () =>
-    axios.get("/api/list/", getConfig()).then((response: AxiosResponse) => response.data)
+export const updateList = (updatedList: ShoppingList, token?: string) =>
+    axios.patch(`/api/list/update`, updatedList, token ? {headers: {'Authorization': 'Bearer' + token}} : {})
+        .then(response => response.data)
 
-export const getListById = (id: string) =>
-    axios.get(`/api/list/${id}`, getConfig()).then((response: AxiosResponse) => response.data)
+export const getListByName = (listId: string, token?: string) =>
+    axios.get(`/api/list/getById/${listId}`, token ? {headers: {'Authorization': 'Bearer ' + token}} : {})
+        .then(response => response.data)
 
-export const addNewList = (newList: {}) =>
-    axios.post("/api/list/", getConfig()).then((response: AxiosResponse) => response.data)
+export const deleteListById = (listId: string, token?: string) =>
+    axios.delete(`/api/list/remove/${listId}`, token ? {headers: {'Authorization': 'Bearer ' + token}} : {})
+        .then(response => response.data)
 
-export const changeListName = (newList: {}) =>
-    axios.put("/api/list/", getConfig()).then((response: AxiosResponse) => response.data)
-
-export const deleteList = (id: string) =>
-    axios.delete(`/api/list/${id}`, getConfig()).then(console.log)
-
-export const login = (userInput: {username: string, password: string}) =>
+export const login = (userInput: { username: string, password: string }) =>
     axios.post("/auth/login/", userInput).then((response: AxiosResponse<string>) => response.data)
 
+/*
+export const getItem = (token?: string) =>
+    axios.get("/list/addItem", token ? {headers: {'Authorization': 'Bearer' + token}} : {})
+        .then(response => response.data)*/
